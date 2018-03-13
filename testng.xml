@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Everjobs Suite">
+
+<parameter name="appURL" value="https://web.licious.info/"/>
+
+<parameter name="browserType" value="firefox"/>
+
+	<test name="Page Object Model Project">
+		<classes>
+
+		<class name="homepage.LoginTest" /> 
+		
+		</classes>	
+	</test> 
+	
+</suite> <!-- Suite -->
